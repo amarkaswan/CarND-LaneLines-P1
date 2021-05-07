@@ -27,7 +27,7 @@ I have tested the software pipeline on a set of test images and the results obta
 <center>
 <table>
   <tr>
-    <td>solidWhiteCurve</td>
+    <td><center>solidWhiteCurve<center/></td>
      <td>solidWhiteRight</td>
      <td>solidYellowCurve</td>
   </tr>
