@@ -24,10 +24,11 @@
 
 ### 3. Testing
 I have tested the software pipeline on a set of test images and the results obtained are shown below.  
-<center>
+
 <table>
+ <center>
   <tr>
-    <td><center>solidWhiteCurve</center></td>
+    <td>solidWhiteCurve</td>
      <td>solidWhiteRight</td>
      <td>solidYellowCurve</td>
   </tr>
@@ -46,8 +47,8 @@ I have tested the software pipeline on a set of test images and the results obta
      <td> <img src="./test_images_output/solidYellowLeft_output.jpg" width="260" height="150"> </td>
      <td> <img src="./test_images_output/whiteCarLaneSwitch_output.jpg" width="260" height="150"> </td>
   </tr>
+ </center>
  </table>
-</center>
 ### 4. Shortcomings 
 
 <div style="text-align: justify">One potential shortcoming is that all the parameters of the software pipeline are hardcoded. Therefore, it may not be robust for images (or frames) having different sizes and videos recorded with different orientations. In addition, it is likely to fail when the region of the lane lines is changed, such as in an image of a curvy road. </div>
