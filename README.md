@@ -24,6 +24,7 @@
 
 ### 3. Testing
 I have tested the software pipeline on a set of test images and the results obtained are shown below.  
+<head>
 <style>
 table, td, th {
   border: 1px solid black;
@@ -38,6 +39,7 @@ td {
   text-align: center;
 }
 </style>
+</head>
 <table>
   <tr>
     <td>solidWhiteCurve</td>
