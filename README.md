@@ -32,9 +32,9 @@ I have tested the software pipeline on a set of test images and the results obta
      <td>solidYellowCurve</td>
   </tr>
   <tr>
-     <td> <img src="https://github.com/amarkaswan/CarND-LaneLines-P1/blob/main/test_images_output/solidWhiteCurve.jpg" width="260" height="150"> </td>
-     <td> <img src="https://github.com/amarkaswan/CarND-LaneLines-P1/blob/main/test_images_output/solidWhiteRight.jpg" width="260" height="150"> </td>
-     <td> <img src="https://github.com/amarkaswan/CarND-LaneLines-P1/blob/main/test_images_output/solidYellowCurve.jpg" width="260" height="150"> </td>
+     <td> <img src="./test_images_output/solidWhiteCurve_output.jpg" width="260" height="150"> </td>
+     <td> <img src="./test_images_output/solidWhiteRight_output.jpg" width="260" height="150"> </td>
+     <td> <img src="./test_images_output/solidYellowCurve_output.jpg" width="260" height="150"> </td>
   </tr>
   <tr>
     <td>solidYellowCurve2</td>
@@ -42,12 +42,11 @@ I have tested the software pipeline on a set of test images and the results obta
      <td>whiteCarLaneSwitch</td>
   </tr>
   <tr>
-     <td> <img src="https://github.com/amarkaswan/CarND-LaneLines-P1/blob/main/test_images_output/solidYellowCurve2.jpg" width="260" height="150"> </td>
-     <td> <img src="https://github.com/amarkaswan/CarND-LaneLines-P1/blob/main/test_images_output/solidYellowLeft.jpg" width="260" height="150"> </td>
-     <td> <img src="https://github.com/amarkaswan/CarND-LaneLines-P1/blob/main/test_images_output/whiteCarLaneSwitch.jpg" width="260" height="150"> </td>
+     <td> <img src="./test_images_output/solidYellowCurve2_output.jpg" width="260" height="150"> </td>
+     <td> <img src="./test_images_output/solidYellowLeft_output.jpg" width="260" height="150"> </td>
+     <td> <img src="./test_images_output/whiteCarLaneSwitch_output.jpg" width="260" height="150"> </td>
   </tr>
  </table>
-
 
 ### 4. Shortcomings 
 
