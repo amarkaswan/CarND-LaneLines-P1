@@ -37,7 +37,7 @@ table {
 td {
   text-align: center;
 }
-</style
+</style>
 <table>
   <tr>
     <td>solidWhiteCurve</td>
