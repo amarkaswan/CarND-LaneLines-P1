@@ -53,18 +53,9 @@ I have tested the software pipeline on a set of test images and the results obta
 ### 4. Experimental Results
 The results obtained from the developed software pipelines are shown below.
 
- <table>
- <center>
-  <tr>
-    <td>solidYellowLeft</td>
-     <td>solidWhiteRight</td>
-  </tr>
-  <tr>
-     <td> https://user-images.githubusercontent.com/14021388/218276303-11c610e7-a675-4f9b-939b-e73f119084b5.mp4 </td>
-     <td> https://user-images.githubusercontent.com/14021388/218276316-0a4d1d7d-b928-4324-98ec-91821859b556.mp4 </td>
-  </tr>
- </center>
- </table>
+https://user-images.githubusercontent.com/14021388/218276303-11c610e7-a675-4f9b-939b-e73f119084b5.mp4 
+
+https://user-images.githubusercontent.com/14021388/218276316-0a4d1d7d-b928-4324-98ec-91821859b556.mp4
 
 
 ### 5. Shortcomings 
