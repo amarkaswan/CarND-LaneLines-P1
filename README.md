@@ -50,11 +50,28 @@ I have tested the software pipeline on a set of test images and the results obta
  </center>
  </table>
  
-### 4. Shortcomings 
+### 4. Experimental Results
+The results obtained from the developed software pipelines are shown below.
+
+ <table>
+ <center>
+  <tr>
+    <td>solidYellowLeft</td>
+     <td>solidWhiteRight</td>
+  </tr>
+  <tr>
+     <td> https://user-images.githubusercontent.com/14021388/218276303-11c610e7-a675-4f9b-939b-e73f119084b5.mp4 </td>
+     <td> https://user-images.githubusercontent.com/14021388/218276316-0a4d1d7d-b928-4324-98ec-91821859b556.mp4 </td>
+  </tr>
+ </center>
+ </table>
+
+
+### 5. Shortcomings 
 
 <div style="text-align: justify">One potential shortcoming is that all the parameters of the software pipeline are hardcoded. Therefore, it may not be robust for images (or frames) having different sizes and videos recorded with different orientations. In addition, it is likely to fail when the region of the lane lines is changed, such as in an image of a curvy road. </div>
 
-### 5. Possible improvements 
+### 6. Possible improvements 
 
 <div style="text-align: justify">A possible improvement would be to adjust the parameters of the software pipeline dynamically for adopting different types of image or video stream configurations.</div>
 <p></p>
