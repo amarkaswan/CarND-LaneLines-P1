@@ -61,12 +61,16 @@ The Canny edge detection algorithm has four key steps: gradient calculation, non
   <tr>
       <td>Blur Image</td>
     <td>Sobelx Image</td>
+  </tr>
+  <tr>
+       <td> <img src="./examples/blur_gray_solidWhiteCurve.jpg" width="400" height="250"> </td>
+   <td> <img src="./examples/sobelx_blur_gray_solidWhiteCurve.jpg" width="400" height="250"> </td>
+  </tr>
+     <tr>
      <td>Sobely Image</td>
      <td>Gradient Image</td>
   </tr>
   <tr>
-       <td> <img src="./examples/blur_gray_solidWhiteCurve.jpg" width="400" height="250"> </td>
-     <td> <img src="./examples/sobelx_blur_gray_solidWhiteCurve.jpg" width="400" height="250"> </td>
      <td> <img src="./examples/sobely_blur_gray_solidWhiteCurve.jpg"  width="400" height="250"> </td>
       <td> <img src="./examples/gradient_blur_gray_solidWhiteCurve.jpg"  width="400" height="250"> </td>
   </tr>
