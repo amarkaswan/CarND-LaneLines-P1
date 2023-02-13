@@ -178,12 +178,10 @@ First, I tested the software pipeline on a set of test images provide by the Uda
   <tr>
     <td>solidWhiteCurve</td>
      <td>solidWhiteRight</td>
-     <td>solidYellowCurve</td>
   </tr>
   <tr>
      <td> <img src="./test_images_output/solidWhiteCurve_output.jpg"  width="400" height="250"> </td>
      <td> <img src="./test_images_output/solidWhiteRight_output.jpg"  width="400" height="250"> </td>
-     <td> <img src="./test_images_output/solidYellowCurve_output.jpg"  width="400" height="250"> </td>
   </tr>
    <tr>
      <td>solidYellowCurve</td>
