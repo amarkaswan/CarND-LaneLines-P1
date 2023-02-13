@@ -1,9 +1,7 @@
 # **Finding Lane Lines on the Road** 
 
 
-#### <div style="text-align: justify"> This project is a part of Udacity's Self-Driving Engineer nanodegree program. It aims to create a software pipeline for identifying lane lines on the road in a video recorded by a camera mounted on the car's roof using image processing and computer vision techniques. </div>
-
-
+#### This project is a part of Udacity's Self-Driving Engineer nanodegree program. It aims to create a software pipeline for identifying lane lines on the road in a video recorded by a camera mounted on the car's roof using image processing and computer vision techniques. 
 
 
 ## Solution Approach
@@ -63,16 +61,12 @@ The Canny edge detection algorithm has four key steps: gradient calculation, non
   <tr>
       <td>Blur Image</td>
     <td>Sobelx Image</td>
-  </tr>
-  <tr>
-       <td> <img src="./examples/blur_gray_solidWhiteCurve.jpg" width="400" height="250"> </td>
-   <td> <img src="./examples/sobelx_blur_gray_solidWhiteCurve.jpg" width="400" height="250"> </td>
-  </tr>
-    <tr>
      <td>Sobely Image</td>
      <td>Gradient Image</td>
   </tr>
   <tr>
+       <td> <img src="./examples/blur_gray_solidWhiteCurve.jpg" width="400" height="250"> </td>
+     <td> <img src="./examples/sobelx_blur_gray_solidWhiteCurve.jpg" width="400" height="250"> </td>
      <td> <img src="./examples/sobely_blur_gray_solidWhiteCurve.jpg"  width="400" height="250"> </td>
       <td> <img src="./examples/gradient_blur_gray_solidWhiteCurve.jpg"  width="400" height="250"> </td>
   </tr>
@@ -159,6 +153,19 @@ The software pipeline then divides the lines detected by Hough transform into th
 
 Finally, the pipeline trains two linear regression models using points belonging to left and right lane lines to predict their endpoints. The endpoints of the lanes are used to embed the lane lines on the original image.  
 
+ <table>
+ <center>
+  <tr>
+      <td>Masked Image</td>
+      <td>Final Output Image</td>
+  </tr>
+  <tr>
+      <td> <img src="./examples/masked_hysteresis_double_thresholded_non_max_suppressed_gradient_blur_gray_solidWhiteCurve.jpg" width="400" height="250"> </td>
+      <td> <img src="./examples/final_output_solidWhiteCurve.jpg" width="400" height="250"> </td>
+  </tr>
+ </center>
+ </table>
+
 ## Experimental Results
 First, I tested the software pipeline on a set of test images provide by the Udacity, and the results are shown below.  
 
@@ -199,7 +206,7 @@ https://user-images.githubusercontent.com/14021388/218276316-0a4d1d7d-b928-4324-
 
 <div style="text-align: justify">One potential shortcoming is that all the parameters of the software pipeline are hardcoded. Therefore, it may not be robust for images (or frames) having different sizes and videos recorded with different orientations. In addition, it is likely to fail when the region of the lane lines is changed, such as in an image of a curvy road. </div>
 
-## Possible improvements 
+### 6. Possible improvements 
 
 <div style="text-align: justify">A possible improvement would be to adjust the parameters of the software pipeline dynamically for adopting different types of image or video stream configurations.</div>
 <p></p>
