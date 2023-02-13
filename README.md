@@ -185,13 +185,19 @@ First, I tested the software pipeline on a set of test images provide by the Uda
      <td> <img src="./test_images_output/solidWhiteRight_output.jpg"  width="400" height="250"> </td>
      <td> <img src="./test_images_output/solidYellowCurve_output.jpg"  width="400" height="250"> </td>
   </tr>
+   <tr>
+     <td>solidYellowCurve</td>
+      <td>solidYellowCurve2</td>
+  </tr>
   <tr>
-    <td>solidYellowCurve2</td>
+     <td> <img src="./test_images_output/solidYellowCurve_output.jpg"  width="400" height="250"> </td>
+     <td> <img src="./test_images_output/solidYellowCurve2_output.jpg"  width="400" height="250"> </td>
+  </tr>
+  <tr>
      <td>solidYellowLeft</td>
      <td>whiteCarLaneSwitch</td>
   </tr>
   <tr>
-     <td> <img src="./test_images_output/solidYellowCurve2_output.jpg"  width="400" height="250"> </td>
      <td> <img src="./test_images_output/solidYellowLeft_output.jpg"  width="400" height="250"> </td>
      <td> <img src="./test_images_output/whiteCarLaneSwitch_output.jpg"  width="400" height="250"> </td>
   </tr>
