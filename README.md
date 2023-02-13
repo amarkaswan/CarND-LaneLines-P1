@@ -63,12 +63,16 @@ The Canny edge detection algorithm has four key steps: gradient calculation, non
   <tr>
       <td>Blur Image</td>
     <td>Sobelx Image</td>
+  </tr>
+  <tr>
+       <td> <img src="./examples/blur_gray_solidWhiteCurve.jpg" width="400" height="250"> </td>
+   <td> <img src="./examples/sobelx_blur_gray_solidWhiteCurve.jpg" width="400" height="250"> </td>
+  </tr>
+    <tr>
      <td>Sobely Image</td>
      <td>Gradient Image</td>
   </tr>
   <tr>
-       <td> <img src="./examples/blur_gray_solidWhiteCurve.jpg" width="400" height="250"> </td>
-     <td> <img src="./examples/sobelx_blur_gray_solidWhiteCurve.jpg" width="400" height="250"> </td>
      <td> <img src="./examples/sobely_blur_gray_solidWhiteCurve.jpg"  width="400" height="250"> </td>
       <td> <img src="./examples/gradient_blur_gray_solidWhiteCurve.jpg"  width="400" height="250"> </td>
   </tr>
@@ -195,7 +199,7 @@ https://user-images.githubusercontent.com/14021388/218276316-0a4d1d7d-b928-4324-
 
 <div style="text-align: justify">One potential shortcoming is that all the parameters of the software pipeline are hardcoded. Therefore, it may not be robust for images (or frames) having different sizes and videos recorded with different orientations. In addition, it is likely to fail when the region of the lane lines is changed, such as in an image of a curvy road. </div>
 
-### 6. Possible improvements 
+## Possible improvements 
 
 <div style="text-align: justify">A possible improvement would be to adjust the parameters of the software pipeline dynamically for adopting different types of image or video stream configurations.</div>
 <p></p>
